@@ -11,6 +11,7 @@ import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+import unicodedata
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / 'data/articles.json'
@@ -97,6 +98,31 @@ def parse_agora(body):
     if not rows: raise ValueError('Author page yielded no articles')
     return rows
 
+class Collected(list):
+    def __init__(self, rows, pages, warning=None):
+        super().__init__(rows)
+        self.pages, self.warning = pages, warning
+
+def collect_agora():
+    rows, pages = [], 0
+    for number in range(1, 11):
+        url = SOURCES['agora'] if number == 1 else SOURCES['agora'] + f'page/{number}'
+        try:
+            body = fetch(url)
+            batch = parse_agora(body)
+            if rows and not ({x['url'] for x in batch} - {x['url'] for x in rows}):
+                raise ValueError('Pagination repeated an earlier page')
+        except Exception as error:
+            if not rows: raise
+            return Collected(rows, pages, str(error)[:250])
+        rows.extend(batch); pages += 1
+        parser = Links(); parser.feed(body)
+        expected = canonical(SOURCES['agora'] + f'page/{number+1}')
+        if not any(canonical(urllib.parse.urljoin(url,x['url'])) == expected for x in parser.links):
+            return Collected(rows, pages)
+        time.sleep(0.5)
+    return Collected(rows, pages, 'Reached the 10-page safety limit; older pages remain')
+
 def collect_yahoo():
     parser = Links(); parser.feed(fetch(SOURCES['yahoo']))
     urls = sorted({canonical(x['url']) for x in parser.links if valid(canonical(x['url']), 'yahoo')})[:40]
@@ -118,6 +144,7 @@ def collect_yahoo():
 
 def collect(source):
     if source == 'yahoo': return collect_yahoo()
+    if source == 'agora': return collect_agora()
     body = fetch(SOURCES[source])
     rows = parse_agora(body) if source == 'agora' else parse_rss(body, source)
     if not rows: raise ValueError('Empty feed')
@@ -130,7 +157,23 @@ def merge(old, incoming):
             clean = article(row['url'],row['title'],row['source'],row['published'])
             merged[clean['url']] = clean
         except (ValueError, KeyError, TypeError): continue
-    return sorted(merged.values(),key=lambda x:(x['published'],x['url']),reverse=True)
+    rows = sorted(merged.values(),key=lambda x:(x['published'],x['url']),reverse=True)
+    groups = {}
+    for row in rows:
+        key = title_key(row['title'])
+        if len(key) >= 16: groups.setdefault(key,[]).append(row)
+    for group in groups.values():
+        if len({x['source'] for x in group}) < 2: continue
+        for row in group:
+            row['relatedUrls'] = [x['url'] for x in group if x['source'] != row['source']]
+    return rows
+
+def title_key(title):
+    title = unicodedata.normalize('NFKC', title)
+    # Remove only known Yahoo headline suffixes, never fuzzy-match different titles.
+    title = re.sub(r'\s*\([^()]*九条\s*丈二[^()]*\)\s*(\([^()]+\))?\s*$', '', title)
+    title = re.sub(r'\s*\((?:アゴラ|アゴラ 言論プラットフォーム|シェアーズカフェ・オンライン)\)\s*$', '', title)
+    return re.sub(r'[\s\W_]+', '', title).casefold()
 
 def main():
     old = json.loads(OUTPUT.read_text(encoding='utf-8')) if OUTPUT.exists() else {}
@@ -143,7 +186,12 @@ def main():
             previous = old.get('sources',{}).get(source,{})
             try:
                 rows = future.result(); incoming.extend(rows)
-                statuses[source] = dict(status='ok',count=len(rows),lastSuccess=now,url=SOURCES[source])
+                warning = getattr(rows, 'warning', None)
+                statuses[source] = dict(status='partial' if warning else 'ok',count=len(rows),lastSuccess=previous.get('lastSuccess') if warning else now,url=SOURCES[source])
+                if hasattr(rows,'pages'): statuses[source]['pages'] = rows.pages
+                if warning:
+                    statuses[source]['error'] = warning
+                    print(f'::warning::{source}: {warning}')
             except Exception as error:
                 statuses[source] = dict(status='error',count=0,lastSuccess=previous.get('lastSuccess'),url=SOURCES[source],error=str(error)[:250])
                 print(f'::warning::{source}: {error}')

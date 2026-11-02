@@ -28,7 +28,7 @@ class CollectTests(unittest.TestCase):
         self.assertFalse(c.valid('https://news.yahoo.co.jp.evil.com/articles/abc','yahoo'))
         with self.assertRaises(ValueError):c.parse_rss('<html/>','note')
     def test_all_failures_retain_catalog(self):
-        with tempfile.TemporaryDirectory() as folder:
+        with tempfile.TemporaryDirectory(dir=Path(__file__).parent) as folder:
             output=Path(folder)/'articles.json'
             row=c.article('https://note.com/g_kujo_ir/n/nabc','kept','note','2026-10-01')
             output.write_text(json.dumps({'articles':[row]}),encoding='utf-8')
@@ -37,5 +37,26 @@ class CollectTests(unittest.TestCase):
             result=json.loads(output.read_text(encoding='utf-8'))
             self.assertEqual(result['articles'],[row])
             self.assertTrue(all(s['status']=='error' for s in result['sources'].values()))
+
+    def test_agora_pagination_and_partial_failure(self):
+        block='<article><span>2026年10月24日</span><a href="/archives/author/george_kujo">九条 丈二</a><h2><a href="/archives/261024123456.html">記事</a></h2></article>'
+        first=block+'<a href="/archives/author/george_kujo/page/2">次へ</a>'
+        second=block.replace('261024123456','261023123456')
+        with patch.object(c,'fetch',side_effect=[first,second]),patch.object(c.time,'sleep'):
+            rows=c.collect_agora()
+            self.assertEqual(len(rows),2);self.assertEqual(rows.pages,2);self.assertIsNone(rows.warning)
+        with patch.object(c,'fetch',side_effect=[first,ValueError('failed')]),patch.object(c.time,'sleep'):
+            rows=c.collect_agora()
+            self.assertEqual(len(rows),1);self.assertEqual(rows.pages,1);self.assertEqual(rows.warning,'failed')
+
+    def test_related_titles_do_not_merge_urls_or_fuzzy_match(self):
+        title='制度を検証するために必要な情報公開のあり方'
+        a=c.article('https://agora-web.jp/archives/261024123456.html',title,'agora','2026-10-24')
+        b=c.article('https://news.yahoo.co.jp/articles/abc',title+' （九条丈二 社会制度・政策研究者）（アゴラ）','yahoo','2026-10-24')
+        unrelated=c.article('https://note.com/g_kujo_ir/n/nabc',title+' 続編','note','2026-10-24')
+        rows=c.merge([a],[b,unrelated]);lookup={x['url']:x for x in rows}
+        self.assertEqual(len(rows),3)
+        self.assertEqual(lookup[a['url']]['relatedUrls'],[b['url']])
+        self.assertNotIn('relatedUrls',lookup[unrelated['url']])
 
 if __name__=='__main__':unittest.main()

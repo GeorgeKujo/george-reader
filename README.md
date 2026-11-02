@@ -1,6 +1,6 @@
 # GeorgeReader
 
-九条丈二の記事リンクを自動収集するPWA（v0.4）。iPhone Safariでホーム画面に追加できます。本文の転載はせず、各媒体の公式ページで開きます。
+九条丈二の記事リンクを自動収集するPWA（v0.5）。iPhone Safariでホーム画面に追加できます。本文の転載はせず、各媒体の公式ページで開きます。
 
 GitHub Pages: Settings → Pages → Deploy from a branch → main / (root)。
 
@@ -29,3 +29,10 @@ python -m unittest discover -s tests
 node --test tests/app.test.cjs
 python scripts/collect.py
 ```
+
+
+## v0.5: 過去記事・関連表示
+
+アゴラの著者ページは「次のページ」を最大10ページまで順に取得します。途中の取得に失敗した場合は取得できた分を保存し、画面に一部未取得と表示します。noteは公開RSSの掲載範囲、Yahoo!ニュースは公開検索の範囲に限られます。
+
+表記を正規化した見出しが一致する別媒体の記事を「同じ見出しの記事」として相互に表示します。Yahoo!ニュースの既知の著者・配信元の接尾辞だけを除外して比較し、似ているだけの見出しは関連付けません。本文同一の保証ではないためURLは統合せず、既読・お気に入りも各リンクごとに保持します。

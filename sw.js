@@ -1,4 +1,4 @@
-const CACHE='george-reader-v04';
+const CACHE='george-reader-v05';
 const BASE=new URL('./',self.location.href);
 const ASSETS=['./','./index.html','./app.js','./manifest.webmanifest','./data/articles.json'].map(x=>new URL(x,BASE).href);
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
