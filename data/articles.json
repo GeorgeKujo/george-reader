@@ -1,0 +1,506 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-02T11:57:01.990937Z",
+  "sources": {
+    "note": {
+      "status": "ok",
+      "count": 25,
+      "lastSuccess": "2026-11-02T11:57:01.990937Z",
+      "url": "https://note.com/g_kujo_ir/rss"
+    },
+    "agora": {
+      "status": "ok",
+      "count": 36,
+      "lastSuccess": "2026-11-02T11:57:01.990937Z",
+      "url": "https://agora-web.jp/archives/author/george_kujo/"
+    },
+    "yahoo": {
+      "status": "ok",
+      "count": 19,
+      "lastSuccess": "2026-11-02T11:57:01.990937Z",
+      "url": "https://news.yahoo.co.jp/search?p=%E4%B9%9D%E6%9D%A1%20%E4%B8%88%E4%BA%8C"
+    }
+  },
+  "articles": [
+    {
+      "url": "https://news.yahoo.co.jp/articles/f1e001bb1150585f4cc17bd2c81a67db2af16926",
+      "title": "高齢者の医療・介護に40兆円、そのわずか0.5%で医療的ケア児と家族にできること （九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-11-01T21:30:50Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261101120127.html",
+      "title": "ヤードに消えるネオクラ：JDMブームが日本の文化資本を吸い出している",
+      "source": "agora",
+      "published": "2026-11-01T15:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/n131e6c3011be",
+      "title": "知られざる論文の世界 第8回 ガンプラは誰が作ったのか――ニッパーとヤスリで広がったガンダムの世界",
+      "source": "note",
+      "published": "2026-11-01T00:01:12Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/n8a23affd7d53",
+      "title": "コロナ対策禍の爪痕 第5回 患者のQOLはどこへ消えた？――日本と北米の病院を分ける面会制限",
+      "source": "note",
+      "published": "2026-10-31T03:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/n04f03f065ad2",
+      "title": "コロナを映画・漫画・ゲーム・小説から読み直す第5回 『パトレイバー2』とコロナ――「非常事態」は誰が作るのか",
+      "source": "note",
+      "published": "2026-10-29T22:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261028063347.html",
+      "title": "自転車通勤でバス代返還？ 社員の「得」を潰す前に考えること",
+      "source": "agora",
+      "published": "2026-10-28T15:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/n8468baeae2c5",
+      "title": "コロナ脳は本当に存在したのか 第5回 感染したのは「自業自得」だったのか――病気まで自己責任にした心理",
+      "source": "note",
+      "published": "2026-10-27T22:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/n5f9914343d7b",
+      "title": "知られざる論文の世界 第7回 島耕作はなぜあんなにモテるのか――学術論文が本気で分析",
+      "source": "note",
+      "published": "2026-10-27T08:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261026064107.html",
+      "title": "燃えるヤード、消える盗難車：日本の地方に生まれた「準・治外法権」",
+      "source": "agora",
+      "published": "2026-10-26T15:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/nfb6082f00386",
+      "title": "コロナ対策禍の爪痕 第4回 学校は再開した。子どもの心は戻ったのか――自殺・摂食障害と精神科受診",
+      "source": "note",
+      "published": "2026-10-26T08:00:00Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/06b154a0fb4a2534383ce1a1c4c858759a304060",
+      "title": "だんじり事故で2人死亡「自己責任か禁止か」では見えない責任と補償の話 （九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-10-25T21:30:42Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/n388462e97d7c",
+      "title": "知られざる論文の世界 第6回 ガミラスの遊星爆弾で地球の海は消えるのか？――『宇宙戦艦ヤマト』から読む惑星科学",
+      "source": "note",
+      "published": "2026-10-24T22:30:48Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261023095355.html",
+      "title": "製薬会社は5月に「新規投与を控えて」：厚労省の正式通知まで159日",
+      "source": "agora",
+      "published": "2026-10-23T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261022072040.html",
+      "title": "m3.comとは何者か④：プラットフォームの責任とは",
+      "source": "agora",
+      "published": "2026-10-22T15:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/nae74d78c4beb",
+      "title": "コロナ脳は本当に存在したのか 第4回 ――「感染対策」はいつから善悪の問題になったのか",
+      "source": "note",
+      "published": "2026-10-21T22:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/nf7cbed56986d",
+      "title": "知られざる論文の世界 第6回 『銀河英雄伝説』は政治学、『アルスラーン戦記』は歴史学――田中芳樹を論文で読む",
+      "source": "note",
+      "published": "2026-10-20T22:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/nd7ca3befa48d",
+      "title": "コロナを映画・漫画・ゲーム・小説から読み直す 第4回 コロナはゴジラだったのか――なぜ私たちは「人災」を「災厄」として記憶したいのか",
+      "source": "note",
+      "published": "2026-10-20T08:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261019065542.html",
+      "title": "復讐や報復は自分自身も傷つける：SNSで闘い続ける人へ",
+      "source": "agora",
+      "published": "2026-10-19T15:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/nb1815f867fc4",
+      "title": "コロナ脳は本当に存在したのか 第3回 「医療従事者ありがとう。でも近寄らないで」――感染恐怖が「人」に貼り付くとき",
+      "source": "note",
+      "published": "2026-10-18T22:30:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/na3e7688b1132",
+      "title": "知られざる論文の世界 第5回 外国人研究者は『テルマエ・ロマエ』をどう読んだのか",
+      "source": "note",
+      "published": "2026-10-17T22:30:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/n947d8d4f3d6b",
+      "title": "コロナ対策禍の爪痕 第3回 出産は先送りできても、年齢は戻らない――失われた出生は取り戻せたのか",
+      "source": "note",
+      "published": "2026-10-17T08:30:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261016121012.html",
+      "title": "m3.comとは何者か③：m3掲載記事めぐり55万円賠償命令",
+      "source": "agora",
+      "published": "2026-10-16T15:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/n8b287351c84e",
+      "title": "コロナ対策禍の爪痕 第2回 結婚を減らせば、子どもも減る――失われた「若い数年間」",
+      "source": "note",
+      "published": "2026-10-15T22:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/nb8173f239a49",
+      "title": "コロナを映画・漫画・ゲーム・小説から読み直す第3回 あなたの周りにコロナ死者は何人いたか――『となり町戦争』から考える「見えない戦場」",
+      "source": "note",
+      "published": "2026-10-15T03:00:00Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/612a3a08530188c3a859b9771c78e3165d6ef8b9",
+      "title": "「男女平等117位」は何を測った順位か ジェンダーギャップ指数の落とし穴 （九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-10-14T21:30:14Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261014091537.html",
+      "title": "m3.comとは何者か②：専門医制度が学会を減らせない",
+      "source": "agora",
+      "published": "2026-10-14T15:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/neb3ec0ae0013",
+      "title": "知られざる論文の世界 第4回 『SLAM DUNK』を論文で読む――72頁の無音から鎌倉の聖地巡礼まで",
+      "source": "note",
+      "published": "2026-10-14T03:00:00Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/402ae516d563edbc39481e1f0e14991151beb6e5",
+      "title": "年300万円の認知症薬が自宅注射へ 「少し効く」に社会はいくら払うのか （九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-10-13T21:33:23Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261013090033.html",
+      "title": "m3.com とは何者か：学会サイトを開いたらm3がいた",
+      "source": "agora",
+      "published": "2026-10-13T15:00:00Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/2a670599f2b20248ebd5c8b15b2f29cb3300437e",
+      "title": "内房線3か月不通、代行バスも足りない 災害時こそ「車の空席」を使えないか （九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-10-12T21:30:17Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261012050656.html",
+      "title": "ラリーカーは来た、ラリー文化はまだ来ていない：WRCジャパンとゼロリスク社会",
+      "source": "agora",
+      "published": "2026-10-12T15:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/n991bdfe1976b",
+      "title": "「コロナ脳」は本当に存在したのか 第2回――なぜコロナ情報を見続けたのか 恐怖が恐怖を呼ぶ「COVID Stress Syndrome」",
+      "source": "note",
+      "published": "2026-10-11T22:30:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/ne5c6343f1746",
+      "title": "知られざる論文の世界 第3回 なぜドラクエとFFはこんなに違うのか――研究者が分解した「日本のRPG」",
+      "source": "note",
+      "published": "2026-10-10T22:30:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261009082309.html",
+      "title": "シャウエッセンは10グラムで炎上するのに、駅のゴミ箱はなぜ消えたままなのか",
+      "source": "agora",
+      "published": "2026-10-09T15:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/ndbe8dd07a5c5",
+      "title": "「面会できる」は誰が保障するのか――医師2人との共著論文を公開しました",
+      "source": "note",
+      "published": "2026-10-09T08:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261008063630.html",
+      "title": "アナライザーはR2-D2＋C-3PO、999はHAL：松本零士宇宙をAIで読み直す",
+      "source": "agora",
+      "published": "2026-10-08T15:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/n9fcc94bc3e71",
+      "title": "知られざる論文の世界 第2回 青いクルマは事故りやすい？――論文を追ったら「Blue Impreza Bias」にたどり着いた",
+      "source": "note",
+      "published": "2026-10-08T11:06:20Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261007091327.html",
+      "title": "300万円使っても取れない？ ANA「SFC PLUS」とマイルの本当の価値",
+      "source": "agora",
+      "published": "2026-10-07T15:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/n77dbb09bfe9d",
+      "title": "「村人A」にクエストを――研究計画を公開します",
+      "source": "note",
+      "published": "2026-10-07T03:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/n5b39c7508355",
+      "title": "「マスクをしないなら診ません」は許されるのか――病院の“お願い”を考える",
+      "source": "note",
+      "published": "2026-10-06T22:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261005070617.html",
+      "title": "コロナ専門家会議に指揮命令系統はあったのか：西浦・尾身・脇田・厚労省の責任",
+      "source": "agora",
+      "published": "2026-10-05T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261004104002.html",
+      "title": "コロナ対策は「医療版・統帥権干犯」だったのか",
+      "source": "agora",
+      "published": "2026-10-04T15:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/na8b0872f3d00",
+      "title": "コロナを映画・漫画・ゲーム・小説から読み直す第3回 恐怖を支配する者――『20世紀少年』からコロナ禍を読み直す",
+      "source": "note",
+      "published": "2026-10-03T22:45:55Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261002100027.html",
+      "title": "航空会社はどこまで決済会社になるのか：ANAとJALのロイヤルティ戦略",
+      "source": "agora",
+      "published": "2026-10-02T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260930214441.html",
+      "title": "飛ぶ客より払う客？ ANA「SFC300万円」が変えた上客の定義",
+      "source": "agora",
+      "published": "2026-10-01T15:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/n4608d54786a6",
+      "title": "コロナ対策禍の爪痕 第1回 少年院に入る子どもが増えている――あの休校は何を残したのか",
+      "source": "note",
+      "published": "2026-09-30T22:00:00Z"
+    },
+    {
+      "url": "https://note.com/g_kujo_ir/n/n4c345e251984",
+      "title": "コロナ対策禍の爪痕 第0回 「あの時は仕方なかった」で終わらせない――コロナ対策禍の爪痕を追う",
+      "source": "note",
+      "published": "2026-09-29T22:00:00Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/257d131f67ed7a055024a4f8fbfddf5147b276ff",
+      "title": "カルテは誰のもの？ 自分の診療記録を見るのに「開示請求」が必要な日本 （九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-09-29T21:32:20Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/2906cc485d4154468a790d8b7c249b5d0f2a0590",
+      "title": "0歳児保育に月47万円 家庭保育に「月20万円」を配る選択肢も比較すべきでは？ （九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-09-28T21:33:36Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/784204cf37df4cac9bec58fd598e6a964078c31d",
+      "title": "牛乳余りなのに、なぜチーズの85％を輸入するのか 日本の酪農政策のねじれ （九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-09-27T21:31:45Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260926034343.html",
+      "title": "「次の西浦博」を育てるだけでいいのか：理論疫学に必要なのは反証者だ",
+      "source": "agora",
+      "published": "2026-09-26T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260924070425.html",
+      "title": "間違った「8割削減」は、なぜ訂正されなかったのか",
+      "source": "agora",
+      "published": "2026-09-24T15:00:00Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/614d447c23691d0ab665d5bbcacdc17414be4482",
+      "title": "千葉県北西部はなぜこんなに渋滞するのか？16年間止まった土地収用の影響（九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-09-23T21:30:16Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260923093108.html",
+      "title": "台風でタクシー3時間待ち：「1万円のライドシェア」は本当に暴利なのか",
+      "source": "agora",
+      "published": "2026-09-23T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260921060542.html",
+      "title": "自動運転まで10年、誰が運ぶのか：ライドシェアをタクシー利権から切り離せ",
+      "source": "agora",
+      "published": "2026-09-21T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260920104336.html",
+      "title": "「ライドシェアは危険」は本当か：安全管理をタクシー会社だけに任せる必要はあるのか",
+      "source": "agora",
+      "published": "2026-09-20T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260919054625.html",
+      "title": "タクシーが来ない、バスも消える：日本で広がる「移動の空白」",
+      "source": "agora",
+      "published": "2026-09-19T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260918101049.html",
+      "title": "日本のタクシーはなぜこんなに高いのか：ソウルとの公式料金比較で見えた制度差",
+      "source": "agora",
+      "published": "2026-09-18T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260917060754.html",
+      "title": "運転手が消えてもタクシーは安くならない？ 無人化で問われる「利用者の利益」",
+      "source": "agora",
+      "published": "2026-09-17T15:00:00Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/2c5e603ce7d0bef280e2fd7873d01097add3a109",
+      "title": "厚労省予算36.6兆円だけでは見えない 社会保障144兆円はなぜ一般会計より大きいのか（九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-09-16T21:32:22Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260916081902.html",
+      "title": "政府を動かす「専門家のグラフ」は誰が検証するのか",
+      "source": "agora",
+      "published": "2026-09-16T15:00:00Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/1dac11be720ac3ea9b6ed8a9e576a32c6db92c93",
+      "title": "年間2万円の再エネ賦課金、その先で誰が利益を得ているのか？ （九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-09-14T21:30:44Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/9e543e762acb6fc5266248163eb1bb9908cca86a",
+      "title": "論文掲載に数十万円、査読はタダ？AI査読があぶり出した学術出版の仕組み （九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-09-13T21:30:49Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260909083945.html",
+      "title": "保育園にも「MS法人」？ 監査で浮かぶ親族・関係会社取引",
+      "source": "agora",
+      "published": "2026-09-09T15:00:00Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/6a591644287c9b8f74354caee157b24a05b91656",
+      "title": "糖尿病治療薬マンジャロはなぜ発売時に値上げされ、3年後に25％値下げされたのか？ （九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-09-08T21:33:13Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260908094905.html",
+      "title": "海外トップ誌が暴いた『天下りの経済価値』：日本政府はなぜ金を追わないのか",
+      "source": "agora",
+      "published": "2026-09-08T15:00:00Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/7a2fd34042896bd45cf31654f96c2add4bd45404",
+      "title": "同じ100万円の治療なのに9.3万円か2.5万円か 健保組合の「付加給付」はいつまで続く？ （九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-09-07T21:30:28Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260907052353.html",
+      "title": "夏が来れば思い出す再エネ賦課金：負担は国民、利益は投資家へ",
+      "source": "agora",
+      "published": "2026-09-07T15:00:00Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/25655f274602e5b11700910e16dd499a67df68ff",
+      "title": "糖尿病治療薬マンジャロはなぜ「通販商品」のように見えるのか？オンライン診療と広告が変えた処方薬の入口 （九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-09-06T21:30:37Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/70e1fc3601959840a671218f035cae2416b5cfa5",
+      "title": "なぜ日本では眼鏡を25分で作れるのか？処方箋なしを支える「すみ分け」（九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-09-03T21:31:19Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260903072522.html",
+      "title": "感染対策というウイルス：日本社会で指数関数的に感染対策が増えた理由",
+      "source": "agora",
+      "published": "2026-09-03T15:00:00Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/5cd788285f6d20ce8e48dd8d4477b2504419d5f5",
+      "title": "「科研費倍増」で日本の研究力は本当に戻るのか？（九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-09-02T21:30:45Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260827051816.html",
+      "title": "部活にないスポーツはなぜ「親ガチャ」になるのか：才能を家庭任せにする国",
+      "source": "agora",
+      "published": "2026-08-27T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260826084700.html",
+      "title": "3800万円不正受給NPO「ミネラル不足がいじめを生む」：東京都補助金審査を問う",
+      "source": "agora",
+      "published": "2026-08-26T15:00:00Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/a96278b62c0efffb37d970a40744607b2f42bc38",
+      "title": "手術室に「副操縦士」はいるか？ 京大病院事故が問う「止まる仕組み」（九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-08-25T21:30:31Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260825083044.html",
+      "title": "米国ではファウチ追及、日本では沈黙：コロナ対策を誰が検証するのか",
+      "source": "agora",
+      "published": "2026-08-25T15:00:00Z"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/f8e1ade8a69985dfd02d16439debdc18206cbd8a",
+      "title": "「玄米で認知症リスク低下」はどこまで本当か？ 大学プレスリリースを読む5つのポイント (九条丈二 社会制度・政策研究者)（シェアーズカフェ・オンライン）",
+      "source": "yahoo",
+      "published": "2026-08-24T21:30:13Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260824060109.html",
+      "title": "叙勲外交とコロナ行政の影：ルメイとファウチを結ぶ一本の線",
+      "source": "agora",
+      "published": "2026-08-24T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260823122210.html",
+      "title": "49万5000円の阿波おどり：400年の祭りは誰のものになったのか",
+      "source": "agora",
+      "published": "2026-08-23T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260821121638.html",
+      "title": "私用Gmailで公文書を隠した：ファウチ氏の元側近が認めたコロナ行政の闇",
+      "source": "agora",
+      "published": "2026-08-21T15:00:00Z"
+    }
+  ]
+}

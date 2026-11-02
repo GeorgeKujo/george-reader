@@ -1,0 +1,50 @@
+name: Collect articles
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+  push:
+    paths: ['scripts/**', '.github/workflows/collect.yml']
+  pull_request:
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: collect-articles
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node --test tests/app.test.cjs
+      - run: python scripts/collect.py
+      - name: Save article metadata
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/articles.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update article catalog'
+            git push
+          fi
+      - name: Rebuild existing branch-based Pages site
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: await github.rest.repos.requestPagesBuild(context.repo)
+      - name: Upload catalog for inspection
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: article-catalog
+          path: data/articles.json
