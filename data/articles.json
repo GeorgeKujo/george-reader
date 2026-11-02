@@ -1,23 +1,24 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T13:32:21.045430Z",
+  "updatedAt": "2026-11-02T13:41:52.057829Z",
   "sources": {
     "note": {
       "status": "ok",
       "count": 25,
-      "lastSuccess": "2026-11-02T13:32:21.045430Z",
+      "lastSuccess": "2026-11-02T13:41:52.057829Z",
       "url": "https://note.com/g_kujo_ir/rss"
     },
     "agora": {
       "status": "ok",
-      "count": 36,
-      "lastSuccess": "2026-11-02T13:32:21.045430Z",
-      "url": "https://agora-web.jp/archives/author/george_kujo/"
+      "count": 129,
+      "lastSuccess": "2026-11-02T13:41:52.057829Z",
+      "url": "https://agora-web.jp/archives/author/george_kujo/",
+      "pages": 4
     },
     "yahoo": {
       "status": "ok",
       "count": 19,
-      "lastSuccess": "2026-11-02T13:32:21.045430Z",
+      "lastSuccess": "2026-11-02T13:41:52.057829Z",
       "url": "https://news.yahoo.co.jp/search?p=%E4%B9%9D%E6%9D%A1%20%E4%B8%88%E4%BA%8C"
     }
   },
@@ -501,6 +502,564 @@
       "title": "私用Gmailで公文書を隠した：ファウチ氏の元側近が認めたコロナ行政の闇",
       "source": "agora",
       "published": "2026-08-21T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260818073307.html",
+      "title": "8月15日に終わらなかった戦争：占守島と消された蛍の光の4番目の歌詞",
+      "source": "agora",
+      "published": "2026-08-18T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260817064520.html",
+      "title": "マーヴェリックは消えるのか：『トップガン』が問うAI戦闘機の未来",
+      "source": "agora",
+      "published": "2026-08-17T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260816102137.html",
+      "title": "HALではなくR2-D2だった：『スター・ウォーズ』が描いたAIの未来",
+      "source": "agora",
+      "published": "2026-08-16T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260811101729.html",
+      "title": "「低所得者は騙されやすい」というレッテルを貼った東大論文プレスリリース",
+      "source": "agora",
+      "published": "2026-08-11T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260806050157.html",
+      "title": "日本の夏は鎮魂の季節：「遺骨混じりの土砂を使うな」と進まない遺骨収集",
+      "source": "agora",
+      "published": "2026-08-06T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260804080650.html",
+      "title": "「承認された薬」は本当に大丈夫か：株価が暴いた医学論文の不都合な真実",
+      "source": "agora",
+      "published": "2026-08-04T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260801073848.html",
+      "title": "映画『開戦前夜』が映す日本の弱点：コロナ対策にレッドチームはいたか",
+      "source": "agora",
+      "published": "2026-08-01T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260731083836.html",
+      "title": "国家情報局の9閣僚に厚労相はいない：欠けている「感染症インテリジェンス」",
+      "source": "agora",
+      "published": "2026-07-31T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260730043554.html",
+      "title": "国家の過ちを正したのは12歳の少年だった：重巡インディアナポリス沈没から81年",
+      "source": "agora",
+      "published": "2026-07-30T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260729073502.html",
+      "title": "ゴミ箱を置く金はないが監視する金はある：渋谷区「ポイ捨て2,000円」の倒錯",
+      "source": "agora",
+      "published": "2026-07-29T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260726002706.html",
+      "title": "ドコモはなぜ「つながる神話」を失ったのか：長年の顧客がauに逃げた日",
+      "source": "agora",
+      "published": "2026-07-26T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260724081616.html",
+      "title": "なぜ政府は「やりすぎ」を学ばないのか：謝ったら死ぬ国は学ばない",
+      "source": "agora",
+      "published": "2026-07-24T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260723064230.html",
+      "title": "次のパンデミック対策は本当に安全か：政府のコロナ採点表にない「やり過ぎの害」",
+      "source": "agora",
+      "published": "2026-07-23T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260722073443.html",
+      "title": "花火大会は「無料の夏の風物詩」ではなくなった",
+      "source": "agora",
+      "published": "2026-07-22T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260720022501.html",
+      "title": "診療報酬では守れない面会の権利：面会制限を追った私たちのBMJ共著論考",
+      "source": "agora",
+      "published": "2026-07-20T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260719103428.html",
+      "title": "医療・介護という亡国の総動員体制：このままでは「医療介護敗戦」に向かう",
+      "source": "agora",
+      "published": "2026-07-19T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260717102709.html",
+      "title": "なぜBSL-4施設を東京に置きたがるのか：「顔の見える関係」という時代錯誤",
+      "source": "agora",
+      "published": "2026-07-17T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260716062752.html",
+      "title": "裁判に勝っても160円：判決を紙切れにする日本の司法",
+      "source": "agora",
+      "published": "2026-07-16T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260714091919.html",
+      "title": "次は鯨か、馬刺しか、たこ焼きか？「食べてはいけない動物」が増えるお気持ち世界",
+      "source": "agora",
+      "published": "2026-07-14T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260713032359.html",
+      "title": "サムスンに入るか、チキン屋か？ 韓ドラ『財閥家の末息子』に映る階層社会の現実",
+      "source": "agora",
+      "published": "2026-07-13T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260711052216.html",
+      "title": "犬猫は殺処分しても、食べてはいけないのか",
+      "source": "agora",
+      "published": "2026-07-11T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260710104543.html",
+      "title": "犬猫食禁止法は「鯨を食べる日本」の論理を壊す",
+      "source": "agora",
+      "published": "2026-07-10T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260709051509.html",
+      "title": "ペンタゴンのピザ配達情報より危うい？ 防衛省市ヶ谷LUUP導入の情報保全リスク",
+      "source": "agora",
+      "published": "2026-07-09T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260708084021.html",
+      "title": "月9はもうブランドではない：フジテレビが失った「スターを預かる力」",
+      "source": "agora",
+      "published": "2026-07-08T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260707100021.html",
+      "title": "家電量販店はなぜ小さいエアコンを売らないのか？ 畳数表示が生む過剰消費",
+      "source": "agora",
+      "published": "2026-07-07T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260706050841.html",
+      "title": "日本には消費者保護行政があるのか：「泣き寝入り」で回る市場の正体",
+      "source": "agora",
+      "published": "2026-07-06T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260705090100.html",
+      "title": "ANAはLCC化するのか：削られるサービス、見えない搭乗優先順位",
+      "source": "agora",
+      "published": "2026-07-05T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260704015824.html",
+      "title": "ANAは「取れない」、JALは「高い」：どちらがマシな裏切りか",
+      "source": "agora",
+      "published": "2026-07-04T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260703071642.html",
+      "title": "ANAマイルは私設通貨なのか：特典航空券に変えられないマイルをなぜ貯めるのか",
+      "source": "agora",
+      "published": "2026-07-03T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260702064725.html",
+      "title": "雨の日に傘を取り上げるANA：SFC改悪が壊したロイヤル顧客との信用",
+      "source": "agora",
+      "published": "2026-07-02T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260701083146.html",
+      "title": "国際医学誌は中立な神殿ではない：コクラン、製薬会社、医学誌の政治性",
+      "source": "agora",
+      "published": "2026-07-01T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260630050519.html",
+      "title": "W杯恒例の渋谷乱痴気騒ぎは共同体を失った日本の「根無草祭り」なのか",
+      "source": "agora",
+      "published": "2026-06-30T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260629055035.html",
+      "title": "税金で研究し、無償で査読し、金を払って読む：学術出版ビジネスの不都合な真実",
+      "source": "agora",
+      "published": "2026-06-29T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260628013737.html",
+      "title": "Lancet掲載は印籠ではない：コロナ禍で乱用された医学誌とエビデンスの権威",
+      "source": "agora",
+      "published": "2026-06-28T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260627065541.html",
+      "title": "渋滞地獄の千葉県西部：熊谷知事が明かした戦犯の正体",
+      "source": "agora",
+      "published": "2026-06-27T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260626092254.html",
+      "title": "W杯美談とコロナ対策禍：日本人は誰も見ていなくてもごみを拾うのか",
+      "source": "agora",
+      "published": "2026-06-26T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260624093004.html",
+      "title": "明月院ブルーは戦後生まれだった：紫陽花に見る「伝統」の正体",
+      "source": "agora",
+      "published": "2026-06-24T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260623062119.html",
+      "title": "オービス盗難を笑ってはいけない：警察不信が生む近未来「正義の闇バイト」",
+      "source": "agora",
+      "published": "2026-06-23T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260620040558.html",
+      "title": "赤ん坊の食事を迷惑がる国で、少子化対策などできるのか",
+      "source": "agora",
+      "published": "2026-06-20T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260619082349.html",
+      "title": "自衛隊を社会の外に置くな：少子化時代に必要な日本版ROTCと予備役企業支援",
+      "source": "agora",
+      "published": "2026-06-19T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260618051656.html",
+      "title": "自衛官への敬意を「制度」に変えよ：議員が侮辱する国で、誰が国を守るのか",
+      "source": "agora",
+      "published": "2026-06-18T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260617084643.html",
+      "title": "日本ラリーの細い道：勝田貴元はなぜフィンランドへ行かなければならなかったのか",
+      "source": "agora",
+      "published": "2026-06-17T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260616070005.html",
+      "title": "トヨタがル・マンで勝っても、W杯の引き分けに勝てない「自動車大国」",
+      "source": "agora",
+      "published": "2026-06-16T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260615063020.html",
+      "title": "病院のキャンセル料にまつわる誤解と予約患者の待ち時間",
+      "source": "agora",
+      "published": "2026-06-15T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260613052215.html",
+      "title": "生レバーを食べる自由を返せ：危険を管理できない規制国家",
+      "source": "agora",
+      "published": "2026-06-13T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260609065636.html",
+      "title": "ヤンキー踊りと呼ばれるYOSAKOIソーランは、なぜ学校行事になったのか",
+      "source": "agora",
+      "published": "2026-06-09T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260607090138.html",
+      "title": "ANAの予約が消えた？ 「見えない予約」とシステム移行の落とし穴",
+      "source": "agora",
+      "published": "2026-06-07T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260606060450.html",
+      "title": "ANAは安い客を後回しにするのか：オーバーブッキング新約款の不都合な中身",
+      "source": "agora",
+      "published": "2026-06-06T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260605082220.html",
+      "title": "日本は金産出国なのか：消費税還付が生む低リスク犯罪の温床",
+      "source": "agora",
+      "published": "2026-06-05T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260601125942.html",
+      "title": "コミュ障社会日本：ホテルチェックイン論争に見るコミュニケーション不全",
+      "source": "agora",
+      "published": "2026-06-04T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260601130103.html",
+      "title": "病院という聖域（番外編）：厚労省は日赤に舐められているのか",
+      "source": "agora",
+      "published": "2026-06-01T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260527013522.html",
+      "title": "コロナと麻疹が示した感染症法の限界：人は感染対策のために生きるのではない",
+      "source": "agora",
+      "published": "2026-05-27T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260526071741.html",
+      "title": "麻疹患者を「バイオテロ犯」にする社会：感染症公表は誰を守るのか",
+      "source": "agora",
+      "published": "2026-05-26T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260525054147.html",
+      "title": "国民皆保険は誰の金庫か：社会化された損失、私有化された利益（後編）",
+      "source": "agora",
+      "published": "2026-05-25T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260524111710.html",
+      "title": "国民皆保険は誰の金庫か：社会化された損失、私有化された利益（前編）",
+      "source": "agora",
+      "published": "2026-05-24T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260523061503.html",
+      "title": "Nature誌の10年前の警告：「医薬品早期承認制度」の結果は打率ゼロ",
+      "source": "agora",
+      "published": "2026-05-23T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260522050004.html",
+      "title": "超高額医薬品の連発：低効能医薬品に保険適用の「出口」はあるか",
+      "source": "agora",
+      "published": "2026-05-22T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260517101835.html",
+      "title": "ANA、SFC改悪のマーケティング戦略を問う⑨：ANAはなぜ日本人会員を切り捨てたのか",
+      "source": "agora",
+      "published": "2026-05-17T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260516042446.html",
+      "title": "ANA、SFC改悪のマーケティング戦略を問う⑧：航空ロイヤリティから決済ロイヤリティへ",
+      "source": "agora",
+      "published": "2026-05-16T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260515051854.html",
+      "title": "ANA、SFC改悪のマーケティング戦略を問う⑦：経済合理性と他社による代替路",
+      "source": "agora",
+      "published": "2026-05-15T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260513054007.html",
+      "title": "ANA、SFC改悪のマーケティング戦略を問う⑥：会員類型の再分解と改定の真の標的",
+      "source": "agora",
+      "published": "2026-05-13T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260512082424.html",
+      "title": "ANA、SFC改悪のマーケティング戦略を問う⑤：機能比較から見た改定の真の構造",
+      "source": "agora",
+      "published": "2026-05-12T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260511061442.html",
+      "title": "病院という聖域（番外編）：PCRに支配された「隔離医療」の現場",
+      "source": "agora",
+      "published": "2026-05-11T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260510120409.html",
+      "title": "病院という聖域（番外編）：面会制限緩和に悩む病院への処方箋（テンプレ付）",
+      "source": "agora",
+      "published": "2026-05-10T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260508082438.html",
+      "title": "感染症有事と安全保障の交差点③：9条論争を超えた危機管理国家の設計図",
+      "source": "agora",
+      "published": "2026-05-08T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260507054223.html",
+      "title": "感染症有事と安全保障の交差点②：80年変わらない日本的失敗の構造",
+      "source": "agora",
+      "published": "2026-05-07T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260506071827.html",
+      "title": "感染症有事と安全保障の交差点①：「医療崩壊」という誤診",
+      "source": "agora",
+      "published": "2026-05-06T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260504111429.html",
+      "title": "駅前医療モールは地域医療か、それとも金融商品か",
+      "source": "agora",
+      "published": "2026-05-04T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260503095251.html",
+      "title": "高齢者医療の限界（後編）：「おま老」と反サロを超えて",
+      "source": "agora",
+      "published": "2026-05-03T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260502053153.html",
+      "title": "高齢者医療の限界（前編）：「子が親を支える」論の落とし穴",
+      "source": "agora",
+      "published": "2026-05-02T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260501095615.html",
+      "title": "ANA、SFC改悪のマーケティング戦略を問う④：問われるロイヤリティ戦略の本質",
+      "source": "agora",
+      "published": "2026-05-01T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260430043932.html",
+      "title": "ANA、SFC改悪のマーケティング戦略を問う③：SFC改定とJGC戦略の分岐点",
+      "source": "agora",
+      "published": "2026-04-30T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260429104942.html",
+      "title": "ANA、SFC改悪のマーケティング戦略を問う②：見落とされる出張者の実態",
+      "source": "agora",
+      "published": "2026-04-29T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260428073909.html",
+      "title": "ANA、SFC改悪のマーケティング戦略を問う①：失われる「準プラチナ層」",
+      "source": "agora",
+      "published": "2026-04-28T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260426102810.html",
+      "title": "病院という聖域⑮（最終回）：責任不能社会をどう壊すか",
+      "source": "agora",
+      "published": "2026-04-26T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260424073805.html",
+      "title": "病院という聖域⑭：空気に従う合理性——国民は被害者であり、担い手でもあった",
+      "source": "agora",
+      "published": "2026-04-24T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260421090642.html",
+      "title": "病院という聖域（番外編）：ある読者の面会制限との闘いの記録",
+      "source": "agora",
+      "published": "2026-04-21T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260416073708.html",
+      "title": "病院という聖域⑬：専門家の暴走と歪められた政策判断",
+      "source": "agora",
+      "published": "2026-04-16T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260414062511.html",
+      "title": "病院という聖域（番外編）：診療報酬が「面会禁止病院」に突きつけた請求書",
+      "source": "agora",
+      "published": "2026-04-14T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260407074309.html",
+      "title": "病院という聖域⑫：接種ありきのコロナワクチン政策「設計思想」を問う",
+      "source": "agora",
+      "published": "2026-04-07T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260401084900.html",
+      "title": "病院という聖域⑪：なぜ日本だけがマスクを外せなかったのか（後編）",
+      "source": "agora",
+      "published": "2026-04-01T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260329100118.html",
+      "title": "病院という聖域⑩：なぜ日本だけがマスクを外せなかったのか（前編）",
+      "source": "agora",
+      "published": "2026-03-29T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260325084526.html",
+      "title": "病院という聖域⑨：PCR偏重と発熱拒否が生んだ医療アクセス崩壊",
+      "source": "agora",
+      "published": "2026-03-25T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260322100910.html",
+      "title": "病院という聖域⑧：コロナ禍の帝王切開は医学的理由だったのか",
+      "source": "agora",
+      "published": "2026-03-22T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260317065336.html",
+      "title": "病院という聖域（特別編）： 国際医療倫理誌が指摘する日本の面会制限とリベラリズム不在",
+      "source": "agora",
+      "published": "2026-03-17T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260310062049.html",
+      "title": "病院という聖域⑦：診療報酬政治の構造社会——保険料上昇「悪夢のスパイラル」",
+      "source": "agora",
+      "published": "2026-03-10T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260307060037.html",
+      "title": "病院という聖域⑥：非営利の仮面とMS法人──相続・MCDB・保険料への転嫁",
+      "source": "agora",
+      "published": "2026-03-07T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260305064442.html",
+      "title": "病院という聖域⑤：隠された黒字──MS法人が作る財務の錯視",
+      "source": "agora",
+      "published": "2026-03-05T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260301102622.html",
+      "title": "病院という聖域④：医療法人のまやかしの透明性・制度が生む不可視化の構造",
+      "source": "agora",
+      "published": "2026-03-01T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260222092125.html",
+      "title": "病院という聖域（番外編）：消えた「特別扱い」日赤の理念とガバナンスの整合性",
+      "source": "agora",
+      "published": "2026-02-23T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260219070118.html",
+      "title": "病院という聖域③：面会制限と財務のねじれ・日赤決算が示す構造",
+      "source": "agora",
+      "published": "2026-02-19T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260213063722.html",
+      "title": "病院という聖域②：日赤の面会緩和は人道原則への背反",
+      "source": "agora",
+      "published": "2026-02-13T15:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/260201092422.html",
+      "title": "病院という聖域①：面会制限が守るものは、命か、それとも特権か",
+      "source": "agora",
+      "published": "2026-02-03T15:00:00Z"
     }
   ]
 }
