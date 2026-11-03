@@ -44,3 +44,29 @@ test('related links retain independent read and favorite states',async()=>{
  assert.equal(rows.find(x=>x.source==='note').favorite,true);
  assert.equal(get('count').textContent,'(2/2)');
 });
+
+test('mark all read covers filtered-out articles and preserves favorites after refresh',async()=>{
+ const {get,storage}=await boot();
+ get('filter').value='favorites';get('filter').onchange();
+ get('search').value='Saved';get('search').oninput();
+ get('mark-all-read').onclick();
+ let rows=JSON.parse(storage.get('george-reader-v03'));
+ assert.equal(rows.length,2);
+ assert.ok(rows.every(x=>x.read));
+ assert.equal(rows.find(x=>x.title==='Saved').favorite,true);
+ assert.equal(get('mark-all-read').disabled,true);
+ assert.match(get('bulk-status').textContent,/1件/);
+ await get('refresh').onclick();
+ get('filter').value='unread';get('search').value='';get('filter').onchange();
+ assert.equal(get('count').textContent,'(0/2)');
+});
+
+test('mark all read excludes hidden articles',async()=>{
+ const {get,storage}=await boot();
+ get('items').children[0].children[2].children[2].onclick();
+ const hidden=storage.get('george-reader-hidden');
+ assert.equal(get('mark-all-read').disabled,true);
+ get('mark-all-read').onclick();
+ assert.equal(storage.get('george-reader-hidden'),hidden);
+ assert.equal(JSON.parse(storage.get('george-reader-v03')).length,1);
+});

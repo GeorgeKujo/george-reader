@@ -18,7 +18,7 @@ OUTPUT = ROOT / 'data/articles.json'
 SOURCES = {
     'agora': 'https://agora-web.jp/archives/author/george_kujo/',
     'note': 'https://note.com/g_kujo_ir/rss',
-    'yahoo': 'https://news.yahoo.co.jp/search?p=' + urllib.parse.quote('九条 丈二'),
+    'yahoo': 'https://news.yahoo.co.jp/search?p=' + urllib.parse.quote('九条丈二') + '&ei=utf-8',
 }
 
 def fetch(url):
