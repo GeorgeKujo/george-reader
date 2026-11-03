@@ -1,28 +1,34 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T13:41:52.057829Z",
+  "updatedAt": "2026-11-03T01:04:42.862284Z",
   "sources": {
     "note": {
       "status": "ok",
       "count": 25,
-      "lastSuccess": "2026-11-02T13:41:52.057829Z",
+      "lastSuccess": "2026-11-03T01:04:42.862284Z",
       "url": "https://note.com/g_kujo_ir/rss"
     },
     "agora": {
       "status": "ok",
-      "count": 129,
-      "lastSuccess": "2026-11-02T13:41:52.057829Z",
+      "count": 130,
+      "lastSuccess": "2026-11-03T01:04:42.862284Z",
       "url": "https://agora-web.jp/archives/author/george_kujo/",
       "pages": 4
     },
     "yahoo": {
       "status": "ok",
       "count": 19,
-      "lastSuccess": "2026-11-02T13:41:52.057829Z",
+      "lastSuccess": "2026-11-03T01:04:42.862284Z",
       "url": "https://news.yahoo.co.jp/search?p=%E4%B9%9D%E6%9D%A1%20%E4%B8%88%E4%BA%8C"
     }
   },
   "articles": [
+    {
+      "url": "https://agora-web.jp/archives/261102052752.html",
+      "title": "迷惑車両より一般車を締め出す：海ほたる・大黒PA閉鎖の本末転倒",
+      "source": "agora",
+      "published": "2026-11-02T15:00:00Z"
+    },
     {
       "url": "https://news.yahoo.co.jp/articles/f1e001bb1150585f4cc17bd2c81a67db2af16926",
       "title": "高齢者の医療・介護に40兆円、そのわずか0.5%で医療的ケア児と家族にできること （九条丈二 社会制度・政策研究者）（シェアーズカフェ・オンライン）",
