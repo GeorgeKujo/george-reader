@@ -4,7 +4,7 @@ on:
     - cron: '17 */6 * * *'
   workflow_dispatch:
   push:
-    paths: ['scripts/**', '.github/workflows/collect.yml']
+    paths: ['scripts/**', 'tests/**', 'app.js', 'index.html', 'sw.js', '.github/workflows/collect.yml']
   pull_request:
 permissions:
   contents: write
