@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T06:40:59.508355Z",
+  "updatedAt": "2026-11-11T19:41:44.598798Z",
   "sources": {
     "note": {
       "status": "ok",
       "count": 25,
-      "lastSuccess": "2026-11-11T06:40:59.508355Z",
+      "lastSuccess": "2026-11-11T19:41:44.598798Z",
       "url": "https://note.com/g_kujo_ir/rss"
     },
     "agora": {
       "status": "ok",
       "count": 132,
-      "lastSuccess": "2026-11-11T06:40:59.508355Z",
+      "lastSuccess": "2026-11-11T19:41:44.598798Z",
       "url": "https://agora-web.jp/archives/author/george_kujo/",
       "pages": 4
     },
     "yahoo": {
       "status": "ok",
       "count": 19,
-      "lastSuccess": "2026-11-11T06:40:59.508355Z",
+      "lastSuccess": "2026-11-11T19:41:44.598798Z",
       "url": "https://news.yahoo.co.jp/search?p=%E4%B9%9D%E6%9D%A1%E4%B8%88%E4%BA%8C&ei=utf-8"
     }
   },
