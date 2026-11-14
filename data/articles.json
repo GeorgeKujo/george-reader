@@ -1,28 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T19:50:44.043914Z",
+  "updatedAt": "2026-11-14T06:40:02.605086Z",
   "sources": {
     "note": {
       "status": "ok",
       "count": 25,
-      "lastSuccess": "2026-11-13T19:50:44.043914Z",
+      "lastSuccess": "2026-11-14T06:40:02.605086Z",
       "url": "https://note.com/g_kujo_ir/rss"
     },
     "agora": {
       "status": "ok",
-      "count": 133,
-      "lastSuccess": "2026-11-13T19:50:44.043914Z",
+      "count": 134,
+      "lastSuccess": "2026-11-14T06:40:02.605086Z",
       "url": "https://agora-web.jp/archives/author/george_kujo/",
       "pages": 4
     },
     "yahoo": {
       "status": "ok",
       "count": 19,
-      "lastSuccess": "2026-11-13T19:50:44.043914Z",
+      "lastSuccess": "2026-11-14T06:40:02.605086Z",
       "url": "https://news.yahoo.co.jp/search?p=%E4%B9%9D%E6%9D%A1%E4%B8%88%E4%BA%8C&ei=utf-8"
     }
   },
   "articles": [
+    {
+      "url": "https://note.com/g_kujo_ir/n/n7a9d3f5acf60",
+      "title": "コロナは怖い、でも「打ち手」は増やさない――ワクチン接種で潤った医療機関",
+      "source": "note",
+      "published": "2026-11-13T22:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261113084319.html",
+      "title": "海外の親族21人を扶養？ 日本の税務署は実在を確認できるのか",
+      "source": "agora",
+      "published": "2026-11-13T15:00:00Z"
+    },
     {
       "url": "https://note.com/g_kujo_ir/n/nffb9edfc3396",
       "title": "コロナを映画・漫画・ゲーム・小説から読み直す 第7回 日本に蔓延した「コロナ脳ウイルス」――『バイオハザード』が現実になった日",
