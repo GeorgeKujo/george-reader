@@ -1,28 +1,34 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T21:48:49.958946Z",
+  "updatedAt": "2026-11-26T08:33:52.727859Z",
   "sources": {
     "note": {
       "status": "ok",
       "count": 25,
-      "lastSuccess": "2026-11-25T21:48:49.958946Z",
+      "lastSuccess": "2026-11-26T08:33:52.727859Z",
       "url": "https://note.com/g_kujo_ir/rss"
     },
     "agora": {
       "status": "ok",
       "count": 144,
-      "lastSuccess": "2026-11-25T21:48:49.958946Z",
+      "lastSuccess": "2026-11-26T08:33:52.727859Z",
       "url": "https://agora-web.jp/archives/author/george_kujo/",
       "pages": 4
     },
     "yahoo": {
       "status": "ok",
       "count": 23,
-      "lastSuccess": "2026-11-25T21:48:49.958946Z",
+      "lastSuccess": "2026-11-26T08:33:52.727859Z",
       "url": "https://news.yahoo.co.jp/search?p=%E4%B9%9D%E6%9D%A1%E4%B8%88%E4%BA%8C&ei=utf-8"
     }
   },
   "articles": [
+    {
+      "url": "https://note.com/g_kujo_ir/n/nb476c70208f9",
+      "title": "PCRというエクスカリバー 第8回 聖剣は誰の手に渡ったのか――PCRを振るう権限と、止める責任",
+      "source": "note",
+      "published": "2026-11-25T22:00:00Z"
+    },
     {
       "url": "https://note.com/g_kujo_ir/n/n67f9937cf7f6",
       "title": "PCRというエクスカリバー 第7回 陰性証明という「禊」――国が不要と言っても求められた社会復帰の通行証",
