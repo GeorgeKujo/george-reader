@@ -1,28 +1,40 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T21:26:40.689331Z",
+  "updatedAt": "2026-11-28T07:59:48.732984Z",
   "sources": {
     "note": {
       "status": "ok",
       "count": 25,
-      "lastSuccess": "2026-11-27T21:26:40.689331Z",
+      "lastSuccess": "2026-11-28T07:59:48.732984Z",
       "url": "https://note.com/g_kujo_ir/rss"
     },
     "agora": {
       "status": "ok",
-      "count": 145,
-      "lastSuccess": "2026-11-27T21:26:40.689331Z",
+      "count": 146,
+      "lastSuccess": "2026-11-28T07:59:48.732984Z",
       "url": "https://agora-web.jp/archives/author/george_kujo/",
       "pages": 5
     },
     "yahoo": {
       "status": "ok",
       "count": 23,
-      "lastSuccess": "2026-11-27T21:26:40.689331Z",
+      "lastSuccess": "2026-11-28T07:59:48.732984Z",
       "url": "https://news.yahoo.co.jp/search?p=%E4%B9%9D%E6%9D%A1%E4%B8%88%E4%BA%8C&ei=utf-8"
     }
   },
   "articles": [
+    {
+      "url": "https://note.com/g_kujo_ir/n/n3c600beac5de",
+      "title": "PCRというエクスカリバー 【最終回】聖剣は暴走したのか、それとも使い手が暴走したのか",
+      "source": "note",
+      "published": "2026-11-27T22:00:00Z"
+    },
+    {
+      "url": "https://agora-web.jp/archives/261127100327.html",
+      "title": "ワクチン価格は企業秘密、助成金は税金：厚労省は8,300円の根拠を説明せよ",
+      "source": "agora",
+      "published": "2026-11-27T15:00:00Z"
+    },
     {
       "url": "https://note.com/g_kujo_ir/n/na814ee91301b",
       "title": "PCRというエクスカリバー 番外編 コロナ騒動に咲いた徒花――にしたんクリニックの成功とPCRバブル",
